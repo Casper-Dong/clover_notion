@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const BLOCK_TYPES = [
-  { type: 'text',    icon: 'T',  label: 'Text',    defaults: { text: '', style: 'paragraph' } },
+  { type: 'text',    icon: 'A',  label: 'Text',    defaults: { text: '', style: 'paragraph' } },
   { type: 'image',   icon: '🖼', label: 'Image',   defaults: { url: '', width: 400, height: 300 } },
   { type: 'todo',    icon: '☑', label: 'To-do',   defaults: { text: '', checked: false } },
   { type: 'quote',   icon: '❝', label: 'Quote',   defaults: { text: '' } },
